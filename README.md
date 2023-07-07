@@ -1,8 +1,7 @@
 host.py -> driver program to simulate ad compare coinflips and other 2-outcome/probability events (with probabilities that sum to 100%).
 
-Contains a custom class names qubit (not by Microsoft, purely inspired by the wikipedia page [here](https://en.wikipedia.org/wiki/Qubit)), 
-that tries to implement a single 2-outcome/probability state. It tries to use a python trick to generate a random number and then check
-that number's remainder mod 2.
+qubit.py & qregister.py -> Contain custom qubit and qRegister classes respectively (not by Microsoft, purely inspired
+by the wikipedia pages [here (qubits)](https://en.wikipedia.org/wiki/Qubit) and [here (registers)](https://en.wikipedia.org/wiki/Quantum_register)).
 
 Qubits can essentially represent a state that hasn't yet been observed; but you know what the outcomes are in nature. For example; say you know
 a person shows up to work 80% of the time; you could create a qubit that collapses to 1 80% of all observations; and that could help simulate
