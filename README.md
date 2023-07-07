@@ -1,6 +1,6 @@
 host.py -> driver program to simulate ad compare coinflips and other 2-outcome/probability events (with probabilities that sum to 100%).
 
-Contains a custom class names qubit (not by Microsoft, purely inspired by the wikipedia page [here](https://en.wikipedia.org/wiki/Qubit), 
+Contains a custom class names qubit (not by Microsoft, purely inspired by the wikipedia page [here](https://en.wikipedia.org/wiki/Qubit)), 
 that tries to implement a single 2-outcome/probability state. It tries to use a python trick to generate a random number and then check
 that number's remainder mod 2.
 

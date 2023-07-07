@@ -6,7 +6,7 @@ namespace qsharp {
     
     @EntryPoint()
     operation Main() : Unit {
-        //Message("Hello quantum world!");
+        Message("Hello quantum world!");
         //MeasurementDemo();
         //RandomBitDemo();
         //RandomBit();
