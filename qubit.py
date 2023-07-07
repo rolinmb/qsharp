@@ -103,3 +103,6 @@ class qubit:
 
     def __repr__(self):
         return f"[[{round(self.c0.real, 5)}, {round(self.c0.imag, 5)}]; [{round(self.c1.real, 5)}, {round(self.c1.imag, 5)}]]"
+    
+if __name__ == "__main__":
+    pass
